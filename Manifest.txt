@@ -1,0 +1,12 @@
+History.txt
+Manifest.txt
+README.rdoc
+Rakefile
+lib/otokonoramen500yen.rb
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_otokonoramen500yen.rb
+bin/otokonoramen500yen
+

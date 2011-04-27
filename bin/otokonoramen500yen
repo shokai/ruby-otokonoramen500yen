@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+require 'rubygems'
+$:.unshift File.dirname(__FILE__)+'/../lib/'
+require 'otokonoramen500yen'
+
+o = Otokonoramen500yen.get
+puts "#{o.date} 発行"
+puts o.body
+
