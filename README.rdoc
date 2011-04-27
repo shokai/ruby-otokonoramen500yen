@@ -6,17 +6,19 @@
 
 男のらーめん500円の営業状態を取得する
 
-== SYNOPSIS:
-
-    % require 'otokonoramen500yen'
-    % o = Otokonoramen500yen.get
-    % puts o.date
-    % puts o.body
-
-
 == INSTALL:
 
 * gem install otokonoramen500yen
+
+
+== SYNOPSIS:
+
+    require 'otokonoramen500yen'
+    o = Otokonoramen500yen.get
+    puts o.date
+    puts o.body
+    puts o.url
+
 
 == LICENSE:
 

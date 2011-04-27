@@ -7,4 +7,4 @@ require 'otokonoramen500yen'
 o = Otokonoramen500yen.get
 puts "#{o.date} 発行"
 puts o.body
-
+puts o.url
