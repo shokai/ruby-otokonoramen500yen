@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
+# $:.unshift File.dirname(__FILE__)+'/../lib/'
 require 'rubygems'
-$:.unshift File.dirname(__FILE__)+'/../lib/'
 require 'otokonoramen500yen'
 
 o = Otokonoramen500yen.get
