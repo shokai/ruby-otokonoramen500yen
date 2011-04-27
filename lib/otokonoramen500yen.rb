@@ -4,7 +4,7 @@ require 'open-uri'
 require 'kconv'
 
 module Otokonoramen500yen
-  VERSION = '0.0.2'
+  VERSION = '0.0.3'
 
   def Otokonoramen500yen.url
     'http://bn.merumo.ne.jp/backno/latestView.do?magId=00589575'
